@@ -1,26 +1,24 @@
 # Doctor Appointment Portal
 
-## Folder Structure
-Doctor-Appointment-Portal/
-+- frontend/
-+- backend/
-+- .gitignore
-+- README.md
+## Description
+A mini web app to manage doctor appointments. Users can view doctor list and book appointments.
 
-## Backend Setup
-cd backend
-npm install
-npm start
+## Tech Stack
+- Frontend: React
+- Backend: Node.js + Express
+- Data Storage: In-memory (or specify database)
 
-## Frontend Setup
-cd frontend
-npm install
-npm start
+## Setup Instructions
 
-## Notes
-- Start backend first
-- node_modules and .env files are ignored
+### Backend
+1. Go to backend folder: `cd backend`
+2. Install dependencies: `npm install`
+3. Start server: `npm start` (runs on http://localhost:5000)
 
-## Author
-Sachin Yadav
+### Frontend
+1. Go to frontend folder: `cd frontend`
+2. Install dependencies: `npm install`
+3. Start app: `npm start` (runs on http://localhost:3000)
 
+## Time Spent
+Approx. 10 hours
